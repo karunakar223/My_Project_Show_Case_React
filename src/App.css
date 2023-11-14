@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Roboto';
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app-container {
+  min-height: 86vh;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 2%;
+}
+
+.navbar {
+  height: 14vh;
+  background-color: #f1f5f9;
+  display: flex;
+  align-items: center;
+}
+.website-logo {
+  height: 60px;
+  width: 120px;
+  margin-left: 50px;
+}
+.select {
+  height: 38px;
+  width: 45%;
+  border: 2px solid #cbd5e1;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 8px;
+  outline: none;
+  margin-bottom: 20px;
+}
+
+.ul-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.li-container {
+  list-style-type: none;
+}
+
+.project-card {
+  min-height: 150px;
+  width: 220px;
+  background-color: #ffffff;
+  border-radius: 6px;
+  box-shadow: 8px 8px 8px #e6e9ec;
+  margin: 12px;
+}
+.project-image {
+  height: 120px;
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 8px;
+}
+
+.project-name {
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  padding: 10px;
+}
+
+.loader {
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.failure-container {
+  min-height: 86vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.failure-image {
+  height: 35%;
+  width: 40%;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 150px;
+  margin-bottom: 10px;
+}
+
+.failure-header {
+  font-size: 28px;
+  font-weight: 700;
+  color: #475569;
+  margin-bottom: 10px;
+}
+
+.failure-description {
+  font-size: 14px;
+  font-weight: 500;
+  color: #475569;
+  margin-bottom: 10px;
+}
+
+.failure-button {
+  height: 40px;
+  width: 90px;
+  color: #ffffff;
+  background-color: #328af2;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  border-radius: 7px;
+}
